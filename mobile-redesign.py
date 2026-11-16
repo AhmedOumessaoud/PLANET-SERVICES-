@@ -1,0 +1,20 @@
+﻿from pathlib import Path
+from PIL import Image
+im=Image.open(r'C:\Users\hp\Downloads\Planet Services_ Sports Lounge Spectacular.png')
+for name,box in {'supporter':(423,63,576,322),'hero-ball':(0,185,102,294),'floodlights':(0,0,118,172)}.items():
+ im.crop(tuple(round(v*im.width/576) for v in box)).save(Path('assets')/(name+'.webp'),quality=94)
+p=Path('index.html'); s=p.read_text(encoding='utf-8')
+s=s.replace('<h1>وجهتكم المفضلة<br>للترفيه <span>والمتابعة<br class="desktop-break"> الرياضية</span></h1>','<h1><span class="headline-primary">وجهتكم المفضلة</span><span class="headline-secondary">للترفيه والمتابعة الرياضية</span></h1>')
+s=s.replace('<div class="hero-glow"></div>','<div class="hero-glow"></div><div class="mobile-hero-art" aria-hidden="true"><img class="supporter" src="assets/supporter.webp" alt="" width="177" height="299"><img class="hero-ball" src="assets/hero-ball.webp" alt="" width="118" height="126"></div>')
+s=s.replace('<h2>لماذا <em dir="ltr">Planet Services؟</em></h2>','<h2><span class="desktop-why">لماذا <em dir="ltr">Planet Services؟</em></span><span class="mobile-why">لماذا تزورونا؟</span></h2>')
+s=s.replace('<h2>على شاشاتنا… <em>الحماس حاضر</em></h2>','<h2>نماذج من شاشاتنا داخل المحل</h2>')
+s=s.replace('<span class="feature-icon">⌂</span>','<span class="feature-icon" aria-hidden="true">♟♟</span>')
+s=s.replace('<span class="feature-icon">♧</span>','<span class="feature-icon" aria-hidden="true">🛋</span>')
+s=s.replace('<span class="feature-icon">▣</span>','<span class="feature-icon" aria-hidden="true">▣</span>')
+s=s.replace('<span class="feature-icon">✦</span>','<span class="feature-icon" aria-hidden="true">ϟ</span>')
+s=s.replace('<div class="clock">◷</div>','<div class="clock" aria-hidden="true">▦<span>◷</span></div>')
+s=s.replace('<div class="contact-content reveal">','<div class="contact-content reveal"><div class="mobile-pin" aria-hidden="true">📍</div>')
+s=s.replace('<h2>زورونا في<br><em dir="ltr">PLANET SERVICES</em></h2>','<h2><span class="contact-title">زورونا في:</span><em dir="ltr">PLANET SERVICES</em></h2>')
+s=s.replace('<div class="contact-row"><span>للتواصل مع مراد</span>','<div class="contact-row"><span>الهاتف: مراد</span>')
+s=s.replace('<p>مرحبا', '<p>مرحبا')
+p.write_text(s,encoding='utf-8')

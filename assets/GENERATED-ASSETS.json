@@ -1,0 +1,21 @@
+{
+  "generator": "Built-in ImageGen",
+  "assets": {
+    "lounge": {
+      "prompt": "Use case: ads-marketing. Asset type: landscape website interior hero image, wide 16:9. Generate a polished photorealistic architectural concept of a premium Moroccan private sports lounge, consistent with Planet Services navy blue cyan neon aesthetic. Spacious comfortable dark blue leather sofas, low wooden coffee tables with small plants, multiple large wall-mounted TVs showing realistic distant football match pitches and horse racing. Electric blue LED strips trace ceiling and walls, warm recessed ceiling spots, elegant clean commercial interior, believable proportions and natural materials, no people. Wide frontal interior composition. No text, no logos, no playing cards, no fabricated betting interfaces. This is an illustrative concept, not a documented existing shop.",
+      "path": "assets/generated/lounge.webp"
+    },
+    "stadium": {
+      "prompt": "Use case: ads-marketing. Asset type: wide landscape website background. Premium photorealistic night football stadium, vivid emerald pitch at bottom third, panoramic cheering crowd silhouettes in foreground, intense cool blue floodlights top corners, deep dark navy sky across central upper half for live HTML copy. A red Moroccan flag with accurate green interlaced five-point star at lower left and a realistic black and white football on the grass at lower right. Cyan blue rim light. Cinematic commercial sports atmosphere, crisp clean realism. No lettering, no logos, no watermarks. Wide 16:9.",
+      "path": "assets/generated/stadium.webp"
+    },
+    "supporter": {
+      "prompt": "Use case: ads-marketing. Asset type: website hero character cutout. Single adult Moroccan male football fan age 25-35, dark curly hair, short beard, wearing a red football jersey with green collar and small accurate green five-point star on chest, no sponsor or brand. Waist-up with entire head and raised clenched fist completely visible, cheering exuberantly while looking diagonally up and to his left. Athletic natural human anatomy, photorealistic commercial sports portrait, cyan rim lighting on left, warm facial highlights. Isolated on genuinely transparent background. No text, no watermark, no stadium or rectangle background.",
+      "path": "assets/generated/supporter.webp"
+    },
+    "football": {
+      "prompt": "Use case: product-mockup. Asset type: transparent website sports decoration. A single photorealistic classic black and white football, three quarter view, complete sphere entirely visible with generous margin around it. Realistic finely textured leather pentagonal and hexagonal panels and stitching, bright soft key lighting from top left and subtle electric cyan rim light from right. Professional premium sports advertising cutout. Genuinely transparent background, no floor, no grass, no text, no logos, no watermark.",
+      "path": "assets/generated/football.webp"
+    }
+  }
+}
