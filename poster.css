@@ -26,3 +26,11 @@
 }
 
 @media(max-width:760px){.ps-feature h3{font-size:3.1cqw;font-weight:800;line-height:1.4}.ps-service h3{font-size:2.6cqw;font-weight:800}.ps-hero>p{font-size:3.05cqw;left:19cqw;width:60cqw}.ps-finale:before,.ps-finale:after{mask-image:radial-gradient(ellipse,#000 20%,transparent 72%);-webkit-mask-image:radial-gradient(ellipse,#000 20%,transparent 72%)}.ps-legal{font-size:1.4cqw;bottom:-.2cqw}}
+/* Client revisions: six readable services and uncropped original screen content. */
+@media(max-width:760px){
+ .ps-headlines h1{font-size:5.7cqw;line-height:1.65}.ps-headlines h2{font-size:4.5cqw;line-height:1.5}
+ .ps-services{height:73cqw}.ps-service-grid{grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,28cqw);height:auto;gap:2cqw}
+ .ps-service-logo{top:1.3cqw;height:6cqw;width:77%}.ps-service-art{top:7cqw;height:12cqw}.ps-service h3{bottom:1cqw;font-size:2.8cqw;line-height:1.2}
+ .ps-keno{background:radial-gradient(ellipse at top,#9d341b88,transparent 70%),linear-gradient(#542023,#241528);border-color:#ffbc27;box-shadow:inset 0 0 2cqw #ffce3744,0 .5cqw 1.6cqw #ffbd0044}.ps-keno .ps-service-logo{background:#fff;border-radius:1cqw;height:8cqw;padding:.5cqw;width:78%}.ps-keno-word{position:absolute;top:11cqw;font-family:Arial,sans-serif;font-size:5cqw;font-weight:900;font-style:italic;color:#ffdc30;letter-spacing:.4cqw;text-shadow:0 0 2cqw #ff740077}
+ .ps-screen img{object-fit:contain;background:#020b18}.ps-responsible{bottom:6cqw}.ps-legal{bottom:.2cqw;font-size:2.2cqw;line-height:1.35;left:3%;width:94%;color:#e2eaf1}.ps-finale{height:66cqw}
+}

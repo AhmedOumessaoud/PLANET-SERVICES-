@@ -1,0 +1,38 @@
+{
+  "slog": {
+    "source_filename": "slog.png",
+    "original": "assets/client/slog.png",
+    "optimized": "assets/client/slog.webp",
+    "width": 1600,
+    "height": 691
+  },
+  "mdjs-3d": {
+    "source_filename": "mdjs 3D.png",
+    "original": "assets/client/mdjs-3d.png",
+    "optimized": "assets/client/mdjs-3d.webp",
+    "width": 906,
+    "height": 510
+  },
+  "mdjs-3d-match": {
+    "source_filename": "mdjs 3D 2.png",
+    "original": "assets/client/mdjs-3d-match.png",
+    "optimized": "assets/client/mdjs-3d-match.webp",
+    "width": 903,
+    "height": 511
+  },
+  "lmatch-pro": {
+    "source_filename": "lmatch pro.png",
+    "original": "assets/client/lmatch-pro.png",
+    "optimized": "assets/client/lmatch-pro.webp",
+    "width": 1600,
+    "height": 772,
+    "duplicate_identical_pixels": true
+  },
+  "keno": {
+    "source_filename": "keno.png",
+    "original": "assets/client/keno.png",
+    "optimized": "assets/client/keno.webp",
+    "width": 276,
+    "height": 142
+  }
+}
